@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_graphql import GraphQLView
 
-from models.models import db_session
+from database.models import db_session
 from schema.schema import schema, Department
 
 app = Flask(__name__)
